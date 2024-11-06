@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import NavigationBar from "@/components/NavigationBar.vue";
 import { social_links } from "@/contacts";
+// @ts-ignore
 import SvgIcon from "@jamescoyle/vue-icon";
 </script>
 
