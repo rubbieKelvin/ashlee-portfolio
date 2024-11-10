@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import NavigationBar from "@/components/NavigationBar.vue";
-import { social_links } from "@/contacts";
 // @ts-ignore
 import SvgIcon from "@jamescoyle/vue-icon";
+import NavigationBar from "~/components/NavigationBar.vue";
+import { social_links } from "~/utils/constants";
 </script>
 
 <template>
@@ -51,13 +51,18 @@ import SvgIcon from "@jamescoyle/vue-icon";
           </div>
           <div class="h-px bg-gray-200" />
           <div class="flex items-center gap-4">
-            <a
-              :href="item.link"
+            <NuxtLink
+              :to="item.link"
               v-for="item in social_links"
               :key="item.link"
+              external
             >
-              <SvgIcon type="mdi" :path="item.icon" class="w-[3.5rem] h-[3.5rem]" />
-            </a>
+              <SvgIcon
+                type="mdi"
+                :path="item.icon"
+                class="w-[3.5rem] h-[3.5rem]"
+              />
+            </NuxtLink>
           </div>
         </div>
       </div>

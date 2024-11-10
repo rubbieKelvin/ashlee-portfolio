@@ -1,8 +1,7 @@
 <script lang="ts" setup>
-import { RouterLink } from "vue-router";
 // @ts-ignore
 import SvgIcon from "@jamescoyle/vue-icon";
-import { quick_links, social_links } from "@/contacts";
+import { quick_links, social_links } from "~/utils/constants";
 </script>
 
 <template>
@@ -12,14 +11,14 @@ import { quick_links, social_links } from "@/contacts";
     <h1 class="text-2xl font-medium">Ashlee Oghogho</h1>
     <div class="flex-grow hidden md:inline" />
     <div class="flex items-center gap-8">
-      <RouterLink v-for="item in quick_links" :to="item.link">
+      <NuxtLink v-for="item in quick_links" :to="item.link" external>
         {{ item.label }}
-      </RouterLink>
+      </NuxtLink>
     </div>
     <div class="md:flex items-center gap-8 hidden">
-      <a v-for="item in social_links" :href="item.link">
+      <NuxtLink v-for="item in social_links" :to="item.link" external>
         <SvgIcon type="mdi" :path="item.icon" />
-      </a>
+      </NuxtLink>
     </div>
   </nav>
 </template>

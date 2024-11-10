@@ -2,11 +2,7 @@ import { mdiLinkedin, mdiInstagram } from "@mdi/js";
 
 type Link = {
   label: string;
-  link:
-    | {
-        name: string;
-      }
-    | string;
+  link: string;
 };
 export const quick_links: Array<Link> = [
   {
