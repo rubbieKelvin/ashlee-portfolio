@@ -9,7 +9,9 @@ import { quick_links, social_links } from "~/utils/constants";
   <nav
     class="flex items-center md:gap-16 gap-2 md:py-12 py-4 md:flex-row flex-col"
   >
-    <h1 class="text-2xl font-medium">{{ appConfig.name }}</h1>
+    <NuxtLink to="/" class="text-2xl font-medium">{{
+      appConfig.name
+    }}</NuxtLink>
     <div class="flex-grow hidden md:inline" />
     <div class="flex items-center gap-8">
       <NuxtLink v-for="item in quick_links" :to="item.link" external>

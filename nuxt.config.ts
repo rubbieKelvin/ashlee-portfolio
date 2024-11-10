@@ -8,5 +8,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      titleTemplate: "Ashlee Oghogho - %s",
+    },
+  },
   css: ["~/assets/css/main.css"],
 });

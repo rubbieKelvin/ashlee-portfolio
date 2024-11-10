@@ -3,6 +3,10 @@
 import SvgIcon from "@jamescoyle/vue-icon";
 import appConfig from "~/app.config";
 import { social_links } from "~/utils/constants";
+
+useHead({
+  title: "B2B Content Writer for Hire",
+});
 </script>
 
 <template>
@@ -30,11 +34,10 @@ import { social_links } from "~/utils/constants";
         </div>
 
         <div>
-          <p class="font-medium mb-2">Need a sugar baby?</p>
           <a
             href="tel:+2347086889864"
             class="bg-black text-white flex px-4 py-4 md:w-max min-w-44 text-lg items-center justify-center"
-            >Call me.</a
+            >Let's work .</a
           >
         </div>
         <div class="h-px bg-gray-200 hidden md:inline" />

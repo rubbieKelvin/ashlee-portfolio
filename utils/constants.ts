@@ -7,7 +7,7 @@ type Link = {
 export const quick_links: Array<Link> = [
   {
     label: "About",
-    link: "#",
+    link: "/about",
   },
   {
     label: "Writing",
