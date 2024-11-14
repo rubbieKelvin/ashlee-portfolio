@@ -53,5 +53,11 @@ export default defineAppConfig({
       description:
         "I’ll start the gym next week…. No, the week after that. Maybe I should start next week cause it’s already midweek anyway. I don’t know what to do yet so let me put it off for now.",
     },
+    {
+      title: "REALISTIC GAME PLAN TO KICKSTART YOUR WEIGHT LOSS JOURNEY",
+      link: "https://medium.com/@usuaashlee1/realistic-game-plan-to-kickstart-your-weight-loss-journey-2c0c2d8804dd",
+      description: "Starting your weight loss journey can be a daunting task especially when you don’t know what to do and all you see online are posts of people saying they did this or that and lost a tremendous amount of weight in a few weeks.",
+      image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*V2M9r7sGRJW9p4UEyNwZIw@2x.jpeg"
+    }
   ],
 });

@@ -22,7 +22,7 @@ useHead({ title: "About me" });
         </p>
       </div>
       <div class="">
-        <img src="/images/ash.png" class="md:h-[50rem] object-contain" />
+        <img src="/images/IMG_2058.jpg" class="md:h-[50rem] object-contain" />
       </div>
     </div>
   </div>
