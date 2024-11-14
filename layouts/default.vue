@@ -9,13 +9,13 @@ import { social_links } from "~/utils/constants";
 <template>
   <div class="container mx-auto px-4 md:px-0 h-full">
     <div class="flex flex-col h-full">
-      <NavigationBar />
+      <NavigationBar class=" sticky top-0 bg-white" />
 
-      <div class="md:min-h-[80vh]">
+      <div class="">
         <slot />
       </div>
 
-      <footer class="border-t flex-grow items-center flex py-6 md:py-0 mt-8 md:mt-0">
+      <footer class="flex-grow items-center flex py-6 md:py-4 mt-8 md:mt-0">
         <div class="flex justify-between flex-col md:flex-row">
           <div>
             <p class="text-gray-800 text-xl font-bold">

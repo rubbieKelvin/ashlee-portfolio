@@ -20,4 +20,38 @@ export default defineAppConfig({
       Whether it's creating captivating copy or manning social media, i'm here to help your business thrive and onnect with the people who matter the most.`,
     ],
   },
+  writings: [
+    {
+      title: "11 Essential Steps To Kickstart Your Career As A Content Writer",
+      link: "https://medium.com/passion-to-profit/11-essential-steps-to-kickstart-your-career-as-a-content-writer-07860001835a",
+      image:
+        "https://miro.medium.com/v2/resize:fit:640/format:webp/1*0v0QurVxPtuxnl9hYSV2wQ@2x.jpeg",
+      description:
+        "Whether you’re a newbie who’s new to the writing scene or you’ve written one or two articles but still don’t know what to do and how to move forward, in this article I give you a step-by-step guide on how not just to become a writer but also how to become a successful paid writer( which is the goal. I mean, it might be a passion for some but for all, it’s a source of income)",
+    },
+    {
+      title: "9 TIPS FOR PORTION CONTROL",
+      link: "https://medium.com/@usuaashlee1/9-tips-for-portion-control-334e4bb8d27c",
+      image:
+        "https://miro.medium.com/v2/resize:fit:640/format:webp/1*NQjAloEivtE2SVb5fSD2gg@2x.jpeg",
+      description:
+        "It’s common knowledge that to lose weight, you need to eat less, right? But what may not be common knowledge is exactly how to practice portion control. Starving yourself isn’t portion control and it doesn’t lead to sustainable weight loss and instead poses numerous health risks.",
+    },
+    {
+      title: "UNDERSTANDING THE LINK BETWEEN STRESS AND WEIGHT GAIN",
+      image:
+        "https://miro.medium.com/v2/resize:fit:640/format:webp/1*G-GTaIM7QCWJloT_QEuW_Q@2x.jpeg",
+      link: "https://medium.com/@usuaashlee1/understanding-the-link-between-stress-and-weight-gain-a77696832a31",
+      description:
+        "What happens to your body when you’re stressed? Has it ever occurred to you that stress has a direct impact on weight gain or have you assumed that the more stressed you are, the more weight you’ll lose?",
+    },
+    {
+      title: "NEW TO THE GYM? HERE’S WHAT YOU NEED TO KNOW",
+      image:
+        "https://miro.medium.com/v2/resize:fit:640/format:webp/1*FrI2StUjGa9AKLN_b7BB5A@2x.jpeg",
+      link: "https://medium.com/@usuaashlee1/new-to-the-gym-heres-what-you-need-to-know-9a6a94195641",
+      description:
+        "I’ll start the gym next week…. No, the week after that. Maybe I should start next week cause it’s already midweek anyway. I don’t know what to do yet so let me put it off for now.",
+    },
+  ],
 });

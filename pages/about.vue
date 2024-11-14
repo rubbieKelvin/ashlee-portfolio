@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import appConfig from "~/app.config";
+
+useHead({ title: "About me" });
 </script>
 
 <template>
@@ -9,7 +11,7 @@ import appConfig from "~/app.config";
       <div class="flex-grow h-px bg-gray-200" />
     </div>
 
-    <div class="flex gap-12">
+    <div class="flex gap-12 flex-col-reverse md:flex-row">
       <div class="flex-[40%] flex flex-col gap-6">
         <p
           v-for="(text, index) in appConfig.aboutText.message"
@@ -20,7 +22,7 @@ import appConfig from "~/app.config";
         </p>
       </div>
       <div class="">
-        <img src="/images/ash.png" class="h-[50rem] object-contain" />
+        <img src="/images/ash.png" class="md:h-[50rem] object-contain" />
       </div>
     </div>
   </div>
@@ -28,7 +30,13 @@ import appConfig from "~/app.config";
 
 <style lang="scss" scoped>
 .about-text {
-    font-size: larger;
-    line-height: 3rem;
+  font-size: larger;
+  line-height: 2rem;
+}
+
+@screen md {
+  .about-text {
+    line-height: 2.6rem;
+  }
 }
 </style>

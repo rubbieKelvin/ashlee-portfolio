@@ -10,8 +10,8 @@ export const quick_links: Array<Link> = [
     link: "/about",
   },
   {
-    label: "Writing",
-    link: "#",
+    label: "Portfolio",
+    link: "/writing",
   },
   {
     label: "Contact",
