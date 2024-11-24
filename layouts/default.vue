@@ -13,7 +13,7 @@ import { social_links } from "~/utils/constants";
     <slot />
   </div>
 
-  <footer class="flex-grow items-center flex py-6 md:py-4 mt-8 container px-4 md:px-0">
+  <footer class="flex-grow items-center flex py-6 md:py-8 px-4 md:px-0 container">
     <div class="flex justify-between flex-col md:flex-row">
       <div>
         <p class="text-gray-800 text-xl font-bold">
