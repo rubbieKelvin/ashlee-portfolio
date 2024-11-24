@@ -36,7 +36,7 @@ useHead({
 
         <div>
           <a
-            href="tel:+2347086889864"
+            :href="`mailto:${appConfig.email}`"
             class="bg-black text-white flex px-4 py-4 md:w-max min-w-44 text-lg items-center justify-center"
             >Let's work .</a
           >
