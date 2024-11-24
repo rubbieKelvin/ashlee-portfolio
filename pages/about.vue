@@ -11,7 +11,7 @@ useHead({ title: "About me" });
       <div class="flex-grow h-px bg-gray-200" />
     </div>
 
-    <div class="flex gap-12 flex-col-reverse md:flex-row">
+    <div class="flex gap-12 flex-col-reverse lg:flex-row items-center lg:items-start">
       <div class="flex-[40%] flex flex-col gap-6">
         <p
           v-for="(text, index) in appConfig.aboutText.message"
@@ -30,13 +30,14 @@ useHead({ title: "About me" });
 
 <style lang="scss" scoped>
 .about-text {
-  font-size: larger;
-  line-height: 2rem;
+  // font-size: larger;
+  // line-height: 2rem;
+  @apply text-lg;
 }
 
 @screen md {
   .about-text {
-    line-height: 2.6rem;
+    line-height: 2rem;
   }
 }
 </style>

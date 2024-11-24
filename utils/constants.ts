@@ -14,8 +14,12 @@ export const quick_links: Array<Link> = [
     link: "/writing",
   },
   {
+    label: "Services",
+    link: "/services",
+  },
+  {
     label: "Contact",
-    link: "#",
+    link: "mailto:usuaashlee1@gmail.com",
   },
 ];
 
