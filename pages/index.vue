@@ -14,12 +14,12 @@ useHead({
     <!-- hero section -->
     <div class="py-6 flex gap-4 flex-col md:flex-row">
       <!-- image -->
-      <div class="flex-[35%]">
+      <div class="md:flex-[35%]">
         <img src="/images/ash.png" alt="Ashlee" class="h-full object-contain" />
       </div>
 
       <!-- writing -->
-      <div class="flex-[50%] flex flex-col gap-4 md:gap-8 py-5">
+      <div class="md:flex-[50%] flex flex-col gap-4 md:gap-8 py-5">
         <div class="flex items-center gap-12">
           <p class="text-2xl italic text-gray-800">Hello</p>
           <div class="flex-grow h-px bg-gray-200" />
