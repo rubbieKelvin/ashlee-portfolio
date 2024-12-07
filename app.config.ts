@@ -11,13 +11,13 @@ export default defineAppConfig({
     title: `Hi there, I'm ${NAME}.`,
     message: [
       `I'm a content writer and social media manager with a love for health, wellness and fitness.
-    My goal? To help brand s connect with their audience through engaging, informative contents that doesn't just boost visibility but build real connections.
-    I break down complex project, and turn them into easy-to-understand story telling to hook and retain customers.
-    While i focus on the welless and health space, i'm versertile and i love exploring other niches, adapting my voice to bring any brand message to life.
-    When creating written content, you want to connect with you readers. ONe of the best ways to turn readers in to loyal customers is by forming a genuiene connection with them, which makes them love your brand.
+    My goal? To help brands connect with their audience through engaging, informative content that doesn't just boost visibility but builds real connections.
+    I break down complex projects, and turn them into easy-to-understand story telling to hook and retain customers.
+    While i focus on the wellness and health space, i'm versertile and i love exploring other niches, adapting my voice to bring any brand message to life.
+    When creating written content, you want to connect with you readers. One of the best ways to turn readers into loyal customers is by forming a genuine connection with them, which makes them love your brand.
     In my content, i write from the pain point of the target audience, putting in mind their challenges and how your brand and services can solve those challenges.
     `,
-      `I also have a degree in radiography, which give me a unique perspective on healthcare and the science behind it.
+      `I also have a degree in radiography, which gives a unique perspective on healthcare and the science behind it.
       Whether it's creating captivating copy or manning social media, i'm here to help your business thrive and onnect with the people who matter the most.`,
     ],
   },
@@ -57,8 +57,10 @@ export default defineAppConfig({
     {
       title: "REALISTIC GAME PLAN TO KICKSTART YOUR WEIGHT LOSS JOURNEY",
       link: "https://medium.com/@usuaashlee1/realistic-game-plan-to-kickstart-your-weight-loss-journey-2c0c2d8804dd",
-      description: "Starting your weight loss journey can be a daunting task especially when you don’t know what to do and all you see online are posts of people saying they did this or that and lost a tremendous amount of weight in a few weeks.",
-      image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*V2M9r7sGRJW9p4UEyNwZIw@2x.jpeg"
-    }
+      description:
+        "Starting your weight loss journey can be a daunting task especially when you don’t know what to do and all you see online are posts of people saying they did this or that and lost a tremendous amount of weight in a few weeks.",
+      image:
+        "https://miro.medium.com/v2/resize:fit:640/format:webp/1*V2M9r7sGRJW9p4UEyNwZIw@2x.jpeg",
+    },
   ],
 });

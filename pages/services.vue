@@ -86,10 +86,10 @@ useHead({ title: "Services" });
     </p>
 
     <h1 class="text-4xl font-bold mt-8">Why should you hire me?</h1>
-    <h2 class="text-2xl font-medium">Excellent writing skills</h2>
+    <h2 class="text-2xl font-medium">▶️ Excellent writing skills</h2>
 
     <p>
-      I provide valuable, orignal and well-written content. Before creating any
+      I provide valuable, original and well-written content. Before creating any
       content, i make sure to have a thorough understanding and sound knowledge
       about the subject matter which in this case is your business, the services
       or products you offer, how that service or product benefit your customer
@@ -107,18 +107,18 @@ useHead({ title: "Services" });
       <br />
     </p>
 
-    <h2 class="text-2xl mt-4 font-medium">Industry expertise</h2>
+    <h2 class="text-2xl mt-4 font-medium">▶️ Industry expertise</h2>
     <p>
       When I'm asked why I decided to write about health, wellness, food, and
       fitness, my answer is always simple, I love it. Routines like hitting the
-      gym, and eating healthy are a part of my day-to-day life so wetting about
+      gym, and eating healthy are a part of my day-to-day life so writing about
       these niches does not seem like a chore or work to me, I'm simply writing
       about the lifestyle I love. My degree in Radiography also affords me with
       knowledge in the health sector.
       <br />
     </p>
 
-    <h2 class="text-2xl mt-4 font-medium">Easy to work with</h2>
+    <h2 class="text-2xl mt-4 font-medium">▶️ Easy to work with</h2>
 
     <p>
       I pride myself on being friendly and easy to work with while maintaining
