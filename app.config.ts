@@ -14,11 +14,11 @@ export default defineAppConfig({
     My goal? To help brands connect with their audience through engaging, informative content that doesn't just boost visibility but builds real connections.
     I break down complex projects, and turn them into easy-to-understand story telling to hook and retain customers.
     While i focus on the wellness and health space, i'm versertile and i love exploring other niches, adapting my voice to bring any brand message to life.
-    When creating written content, you want to connect with you readers. One of the best ways to turn readers into loyal customers is by forming a genuine connection with them, which makes them love your brand.
+    When creating written content, you want to connect with your readers. One of the best ways to turn readers into loyal customers is by forming a genuine connection with them, which makes them love your brand.
     In my content, i write from the pain point of the target audience, putting in mind their challenges and how your brand and services can solve those challenges.
     `,
       `I also have a degree in radiography, which gives a unique perspective on healthcare and the science behind it.
-      Whether it's creating captivating copy or manning social media, i'm here to help your business thrive and onnect with the people who matter the most.`,
+      Whether it's creating captivating copy or manning social media, i'm here to help your business thrive and connect with the people who matter the most.`,
     ],
   },
   writings: [
